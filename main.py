@@ -1,4 +1,4 @@
-# Author: Fayas (https://github.com/FayasNoushad) (@FayasNoushad)
+# Author: Fayas (https://github.com/rungrams) (@rungrams)
 
 import os
 import requests
@@ -17,16 +17,16 @@ API = "https://api.sumanjay.cf/covid/?country="
 START_TEXT = """
 Hello {}, I am a simple corona information of a country telegram bot.
 
-Made by @FayasNoushad
+Made by @rungram
 """
 
 BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://telegram.me/FayasNoushad')
+        InlineKeyboardButton('⭕ SUPPORT ⭕', url='https://telegram.me/rungram')
         ]]
     )
 
-@FayasNoushad.on_message(filters.command(["start"]))
+@rungrams.on_message(filters.command(["start"]))
 async def start(bot, update):
     text = START_TEXT.format(update.from_user.mention)
     reply_markup = BUTTONS
@@ -37,7 +37,7 @@ async def start(bot, update):
         quote=True
     )
 
-@FayasNoushad.on_message(filters.private & filters.text)
+@rungrams.on_message(filters.private & filters.text)
 async def reply_info(bot, update):
     country = update.text.replace(" ", "+").lower()
     reply_markup = BUTTONS
@@ -74,10 +74,10 @@ Latitude : `{latitude}`
 Longitude : `{longitude}`
 Recovered : `{recovered}`
 
-Made by @FayasNoushad
+Made by @rungram
 """
         return covid_info
     except Exception as error:
         return error
 
-FayasNoushad.run()
+Rungrams.run()
