@@ -6,9 +6,9 @@ A corona statistics and information telegram bot.
 
 ```
 Made with Python3
-(C) @FayasNoushad
+(C) @rungram
 Copyright permission under MIT License
-License -> https://github.com/FayasNoushad/Corona-Info-Bot/blob/main/LICENSE
+License -> https://github.com/rungrams/Corona-Info/blob/main/LICENSE
 ```
 
 ---
@@ -20,7 +20,7 @@ License -> https://github.com/FayasNoushad/Corona-Info-Bot/blob/main/LICENSE
 <br>
 
 <p align="left">
-  <a href="https://heroku.com/deploy?template=https://github.com/FayasNoushad/Corona-Info-Bot/tree/main">
+  <a href="https://heroku.com/deploy?template=https://github.com/rungrams/Corona-Info/tree/main">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 </p>
@@ -32,7 +32,7 @@ License -> https://github.com/FayasNoushad/Corona-Info-Bot/blob/main/LICENSE
 <br>
   
 ```sh
-git clone https://github.com/FayasNoushad/Corona-Info-Bot/tree/main
+git clone https://github.com/rungrams/Corona-Info/tree/main
 cd Corona-Info-Bot
 pip3 install -r requirements.txt
 # <Create Variables appropriately>
@@ -59,6 +59,6 @@ python3 main.py
 
 ## Credits
 
-- [Fayas Noushad](https://github.com/FayasNoushad)
+- [RUNGRAM](https://github.com/rungrams)
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
 - [Covid 19 API](https://api.sumanjay.cf/covid)
